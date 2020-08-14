@@ -46,6 +46,7 @@
     background:transparent;
     color:var(--primary);
     border-color:var(--primary);
+    text-decoration: none;
 }
 
 .btn-secondary:hover { 

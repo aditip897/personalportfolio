@@ -308,3 +308,203 @@ svg circle:nth-child(2) {
 
 }
 
+
+
+.projectsection  {
+    background:black;
+}
+
+.projectsection .section-heading2 span {
+    color:var(--primary);
+}
+
+
+
+.section-heading2 { 
+    color:black;
+    text-align: center;
+    line-height: 0.5;
+    font-size:35px;
+}
+.container3 
+{
+
+padding:0;
+margin:0;
+box-sizing: border-box;
+background:black;
+color:white;
+
+}
+
+
+.contaner3 { 
+    width:90%;
+    margin:50px auto;
+}
+
+.hding { 
+    text-align: center;
+    font-size:30px;
+    margin-bottom:50px;
+}
+
+
+
+.row { 
+
+    display:flex;
+    background:black;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+
+
+}
+
+
+
+.card2 {
+    width:20%;
+    background:white;
+    border: 1p solid #ccc;
+    margin-bottom: 50px;
+    transition:0.3s;
+}
+
+.card-header { 
+    text-align:center;
+    padding:50px 10px;
+    background: black;
+    color:var(--primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body { 
+    padding: 30px 20px;
+    text-align: center;
+    font-size:18px;
+}
+
+
+.card-body .button { 
+    display:block;
+    color: aqua;
+    text-align: center;
+    background: black;
+    text-decoration:none;
+    margin-top:30px;
+    padding:10px 5px;
+    
+}
+
+.card2 p { 
+    font-family:'Poppins', sans-serif;
+    color:black;
+}
+
+
+
+
+.card2:hover {
+    
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -19px rgba(0,0,0,0.25);
+}
+
+.button:hover { 
+    
+    background:var(--primary);
+    color:var(--secondary);
+}
+
+@media screen and (max-width:1000px) { 
+    .card2 { 
+        width:40%;
+
+    }
+}
+
+@media screen and (max-width:620px) { 
+
+
+    .container3 {
+        width:100%
+    }
+
+
+    .heading { 
+        padding:20px;
+        font-size:20px;
+
+    }
+    .card2 { 
+        width:80%;
+
+
+    }
+}
+
+
+
+
+.wavy { 
+    margin:0;
+    padding:0;
+    height:15vh;
+    font-family:'Poppins', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+         
+    background:#000;
+
+}
+
+.wavy { 
+    position: relative;
+
+}
+
+.wavy span { 
+    position: relative;
+    display: inline-block;
+    color:#fff;
+    font-size:2.25em;
+    text-transform:uppercase;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    color:var(--primary);
+    
+
+
+
+
+}
+
+
+@keyframes animate {
+
+    0% { 
+        transform: translateY(0px);
+
+    }
+
+    20% { 
+        transform:translateY(-20px);
+    }
+
+
+    40%, 100% { 
+        transform: translateY(0px);
+    }
+
+}
+
+
+
+
+.connect { 
+    background:black;
+}
