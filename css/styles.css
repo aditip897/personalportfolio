@@ -508,3 +508,62 @@ color:white;
 .connect { 
     background:black;
 }
+
+.section-hding { 
+    
+    color: var(--secondary);
+    text-align: center;
+    line-height: 0.5;
+    color: black;
+    font-size:35px;
+}
+
+
+.section-hding span { 
+    color:var(--primary);
+}
+
+.kwk { 
+
+    margin-top:3rem;
+    height:200px;
+    width: 200px;
+
+}
+
+.experiencewriting { 
+    color:black;
+
+
+}
+
+
+
+.exp h6 {
+    font-size:2rem;
+    color:black;
+    margin-bottom:0.5rem;
+    flex:1;
+
+}
+
+
+
+
+
+.comp h6 { 
+    font-size:2rem;
+    margin-top:2.5rem;
+    margin-left:1rem;
+    margin-top:3rem;
+    
+}
+.comp p { 
+    text-align: left;
+    font-size:16px;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+
+.striped-border { border: 1px dashed #000; width: 50%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
