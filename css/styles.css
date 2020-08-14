@@ -566,4 +566,7 @@ color:white;
 
 }
 
-.striped-border { border: 1px dashed #000; width: 50%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
+.images { 
+    height:100px;
+    width:100px;
+}
